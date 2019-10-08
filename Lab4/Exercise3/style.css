@@ -1,0 +1,17 @@
+h1
+{
+  text-align: center;
+}
+
+body
+{
+  text-align: justify;
+  background: black;
+  color: orange;
+}
+
+input.email{
+  display:inline-block;
+  width:20%;
+  align-self: auto;
+}

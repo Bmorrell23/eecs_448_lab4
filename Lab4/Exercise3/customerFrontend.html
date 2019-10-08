@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Morrell Exercise3</title>
+
+    <script type="text/javascript" src="formChecker.js">
+      </script>
+
+		<body>
+			<h1>EECS448 Lab4 Exercise 3 - Tennis Shop<br><br></h1>
+
+		  <form action="customerBackend.php" method="post" onsubmit="return validForm();" autocomplete="off">
+
+				<div class="shop">
+	        Tennis Raquets Signed by Blake Morrell - $500 each<br>
+	        <input type="number" id="raquet" name="raquet" required><br><br>
+
+					Used Towels from 1980 - $100 each<br>
+					<input type="number" id="towel" name="towel" required><br><br>
+
+	        3 year old never flat tennis ball - 10$ each<br>
+	        <input type="number" id="ball" name="ball" required><br><br>
+
+					Automated Practice Partner 3000 - $5 each<br>
+	        <input type="number" id="partner" name="partner" required><br>
+      </div>
+
+      <div class="profile">
+
+          <label><br>Enter Your Email:     </label>
+          <input class="email" type="email" name="email" required><br>
+          <label>Type Your Password: </label>
+          <input class="email" type="text" name="password" required><br>
+
+      </div><br>
+
+      <div class="ship">
+        Shipping Costs:<br>
+        <input type="radio" name="shipping" value="free" checked>!!! FREE 7 day Shipping !!!<br>
+        <input type="radio" name="shipping" value="overnight">$50 - !!!OVERNIGHT!!! Shipping<br>
+				<input type="radio" name="shipping" value="threeDay">$5 - 3 days Shipping<br><br>
+
+      </div>
+      <button type="submit" value="Submit">Order</button>
+    </form>
+        </body>
+      </html>

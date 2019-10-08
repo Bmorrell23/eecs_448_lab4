@@ -1,0 +1,15 @@
+body
+{
+  text-align: center;
+  background: black;
+  color: white;
+  font-family: arial;
+}
+
+table, th, td {
+  border: 2px solid orange;
+  color: white;
+  background: black;
+  table-layout: fixed;
+  width: 66px;
+}

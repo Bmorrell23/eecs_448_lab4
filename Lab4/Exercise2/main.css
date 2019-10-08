@@ -1,0 +1,22 @@
+body
+{
+  text-align: center;
+  background: black;
+  color: orange;
+  font-family: Times ;
+  font-size: 20px;
+}
+
+form
+{
+  text-align: left;
+}
+
+button
+{
+  background: black;
+  border: 3px solid white;
+  color:orange;
+  font-family: Times ;
+  font-size: 20px;
+}
